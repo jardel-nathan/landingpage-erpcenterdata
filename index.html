@@ -50,7 +50,6 @@
         }
 
         .card img {
-            width: 100%;
             height: 100%;
             object-fit: cover;
         }
@@ -83,7 +82,7 @@
     </nav>
 
     <div
-        class="w-full bg-[url(./assets/images/banner-people.webp)] bg-top bg-no-repeat bg-cover h-[400px] md:h-[600px]">
+        class="w-full bg-[url(./assets/images/banner-people.webp)] bg-top bg-no-repeat bg-cover h-[400px] md:h-full">
         <div class="w-fit object-center md:w-1/2 h-full flex flex-row justify-center items-center">
             <h1 class="text-center md:text-left leading-none ">
                 <span class="md:text-[5em] text-[2em] font-bold text-lime-500 ">Um ERP</span><br>
@@ -141,62 +140,147 @@
     </section>
 
 
-    <section id="cards" class="bg-white flex flex-row flex-wrap gap-[40px] items-center justify-center px-4 ">
-        <div class="md:flex md:max-w-7xl w-full gap-5 justify-between">
+    <section  class="bg-white flex flex-row flex-wrap gap-[40px] items-center justify-center px-4 ">
+        <div id="cards" class="md:flex md:max-w-7xl w-full gap-5 justify-evenly flex-wrap">
 
-            <div
-                class="flex flex-col items-center md:flex-row md:max-w-3xl w-full md:w-auto transform transition-transform duration-300 hover:scale-105 mb-10">
-                
-                    <div class="card  flex flex-col md:flex-row justify-center items-center w-full p-0">
-                        <img class="orbject-cover  h-[300px] md:h-auto md:w-[230px] w-full" src="assets/images/cnd.jpg"
-                            alt="">
-                        <div class="card-title text-xl font-bold">CND</div>
-                    </div>
-                
-            </div>
 
-            <div
-                class="flex flex-col items-center md:flex-row md:max-w-3xl w-full md:w-auto transform transition-transform duration-300 hover:scale-105 mb-10">
+        </div>
+    </section>
+
+
+
+
+
+    <section class=" ">
+        <div class="w-full mx-auto  md:max-w-7xl md:!px-0 px-5">
+
+          <div class="mt-15 mb-15">
+            <div class="text-left font-semibold text-4xl text-gray-800 ">
+                Soluções Adicionais
+              </div>
+              <p>
+                  Além do ERP, oferecemos soluções adicionais que podem ser integradas ao seu sistema, como CND, Ponto Eletrônico, Busca e armazenamento de XML, FlitApp e Alter Data.
+              </p>
+             
+          </div>
+            <div  class="md:flex flex-wrap">
+
+            
+                <div
+                    class="md:w-1/2 md:flex  gap-5  items-center md:flex-row  mb-10">
+                    
+                        <div class="card w-full p-0">
+                            <img class="object-cover  h-[300px] md:h-auto md:w-[230px] w-full" src="assets/images/cnd.jpg"
+                                alt="">
+                            <div class="card-title text-xl font-bold">
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-bold">CND - Certidão Negativa Débitos</h1>
+                            <br>
+
+                            <p class="pr-10">
+                                A Certidão Negativa de Débitos (CND) é um documento que comprova a regularidade fiscal de uma empresa. Ela é emitida pela Receita Federal e é necessária para participar de licitações, obter financiamentos, entre outras situações.
+                            </p>
+
+                        </div>
+                    
+                </div>
+                
+                <div
+                    class="md:w-1/2 md:flex  gap-5  items-center md:flex-row  mb-10">
+                    
+                        <div class="card w-full p-0">
+                            <img class="object-cover  h-[300px] md:h-auto md:!w-[230px] w-full" src="assets/images/ponto-eletronico.jpg"
+                                alt="">
+                            <div class="card-title text-xl font-bold">
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-bold">Ponto Eletrônico</h1>
+                            <br>
+
+                            <p class="pr-10">
+                                O Ponto Eletrônico é uma ferramenta que permite o controle de jornada de trabalho dos funcionários de uma empresa. Ele é obrigatório para empresas com mais de 10 funcionários e garante a segurança jurídica da empresa.
+                            </p>
+
+                        </div>
+                    
+                </div>
+                
+                <div
+                    class="md:w-1/2 md:flex  gap-5  items-center md:flex-row  mb-10">
+                    
+                        <div class="card w-full p-0">
+                            <img class="object-cover  h-[300px] md:h-auto md:w-[230px] w-full" src="assets/images/xml.jpg"
+                                alt="">
+                            <div class="card-title text-xl font-bold">
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-bold">Busca e armazenamento de XML</h1>
+                            <br>
+
+                            <p class="pr-10">
+                                O armazenamento de XML é uma prática fundamental para empresas que precisam manter a integridade de suas informações fiscais. Com a busca e armazenamento de XML, é possível garantir a segurança e a organização dos documentos fiscais da empresa.
+                            </p>
+
+                        </div>
+                    
+                </div>
+    
+                
+
+                <div
+                    class="md:w-1/2 md:flex  gap-5  items-center md:flex-row  mb-10">
+                    
+                        <div class="card w-full p-0">
+                            <img class="object-cover  h-[300px] md:h-auto md:!w-[230px] w-full" src="assets/images/flitapp.jpg"
+                                alt="">
+                            <div class="card-title text-xl font-bold">
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-bold">FlitApp</h1>
+                            <br>
+
+                            <p class="pr-10">
+                                O FlitApp oferece a possibilidade de marcação do ponto diretamente no smartphone 
+                                do colaborador. Essa é a modalidade ideal para colaboradores externos ou em regime home office. 
+                                É compatível tanto para sistema operacional Android quanto para IOS. 
+                            </p>
+
+                        </div>
+                    
+                </div>
+    
               
-                    <div class="card  flex flex-col md:flex-row justify-center items-center w-full p-0">
-                        <img class="object-cover w-[230px] h-[300px] md:h-auto md:w-[230px]"
-                            src="assets/images/ponto-eletronico.jpg" alt="">
-                        <div class="card-title text-xl font-bold">Ponto Eletrônico</div>
-                    </div>
-               
-            </div>
+    
+    
+                <div
+                    class="md:w-1/2 md:flex  gap-5  items-center md:flex-row  mb-10">
+                    
+                        <div class="card w-full p-0">
+                            <img class="object-cover  h-[300px] md:h-auto md:w-[230px] w-full" src="assets/images/alterdata.jpg"
+                                alt="">
+                            <div class="card-title text-xl font-bold">
+                            </div>
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-bold">Alter Data</h1>
+                            <br>
 
-            <div
-                class="flex flex-col items-center md:flex-row md:max-w-3xl w-full md:w-auto transform transition-transform duration-300 hover:scale-105 mb-10">
-               
-                    <div class="card  flex flex-col md:flex-row justify-center items-center w-full p-0">
-                        <img class="object-cover w-[230px] h-[300px] md:h-auto md:w-[230px]" src="assets/images/xml.jpg"
-                            alt="">
-                        <div class="card-title text-xl font-bold">Busca e armazenamento de XML</div>
-                    </div>
-                
-            </div>
+                            <p class="pr-10">
+                                A Alterdata é uma empresa de tecnologia que oferece soluções para a gestão de empresas de diversos segmentos. 
+                                Com mais de 30 anos de experiência, a Alterdata é referência no mercado de softwares de gestão empresarial.
+                            </p>
 
-            <div
-                class="flex flex-col items-center md:flex-row md:max-w-3xl w-full md:w-auto transform transition-transform duration-300 hover:scale-105 mb-10">
-               
-                    <div class="card  flex flex-col md:flex-row justify-center items-center w-full p-0">
-                        <img class="object-cover w-[230px] h-[300px] md:h-auto md:w-[230px]"
-                            src="assets/images/flitapp.jpg" alt="">
-                        <div class="card-title text-xl font-bold">FlitApp</div>
-                    </div>
-                
-            </div>
-
-            <div
-                class="flex flex-col items-center md:flex-row md:max-w-3xl w-full md:w-auto transform transition-transform duration-300 hover:scale-105 mb-10">
+                        </div>
+                    
+                </div>
+    
               
-                    <div class="card flex flex-col md:flex-row justify-center items-center w-full p-0">
-                        <img class="object-cover w-[230px] h-[300px] md:h-auto md:w-[230px]"
-                            src="assets/images/alterdata.jpg" alt="">
-                        <div class="card-title text-xl font-bold">Alter Data</div>
-                    </div>
-              
+    
             </div>
         </div>
     </section>
@@ -293,3 +377,131 @@
 <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.1/dist/flowbite.min.js"></script>
 
 </html>
+
+
+
+<script>
+
+segmentos = {
+    "Pet Shop": {
+        "image": "https://erpfor.me/images/paginas/segmentos/varejo/petshop.jpg"
+    },
+"Mercado": {
+        "image": "https://erpfor.me/images/paginas/segmentos/varejo/mercado.jpg"
+    },
+"Óticas": {
+        "image": "https://erpfor.me/images/paginas/segmentos/varejo/otica.jpg"
+    },
+"Papelaria": {
+        "image": "https://erpfor.me/images/paginas/segmentos/varejo/papelaria.jpg"
+    },
+"Moda": {
+        "image": "https://erpfor.me/images/paginas/segmentos/varejo/loja-de-roupas.jpg"
+    },
+"Auto Peças": {
+        "image": "https://erpfor.me/images/paginas/segmentos/varejo/auto-pecas.jpg"
+    },
+"Franquias": {
+        "image": "https://erpfor.me/images/paginas/segmentos/varejo/franquias.jpg"
+    },
+"Materiais de Construção": {
+        "image": "https://erpfor.me/images/paginas/segmentos/varejo/materiais-de-contrucao2.jpg"
+    },
+"Açougue": {
+        "image": "https://erpfor.me/images/paginas/segmentos/varejo/acougue.jpg"
+    },
+"Delivery": {
+        "image": "https://erpfor.me/images/paginas/segmentos/varejo/delivery.jpg"
+    },
+"Loja Online": {
+        "image": "https://erpfor.me/images/paginas/segmentos/varejo/loja-online.jpg"
+    },
+"Emissor de Notas": {
+        "image": "https://erpfor.me/images/paginas/emissao-notas/emissao-nota.png"
+    },
+"Atacado": {
+        "image": "https://erpfor.me/images/paginas/segmentos/atacado/atacado2.jpg"
+    },
+"Alimentos": {
+        "image": "https://erpfor.me/images/paginas/segmentos/atacado/alimentos2.jpg"
+    },
+"Limpeza": {
+        "image": "https://erpfor.me/images/paginas/segmentos/atacado/limpeza.jpg"
+    },
+"Embalagens": {
+        "image": "https://erpfor.me/images/paginas/segmentos/atacado/embalagens.jpg"
+    },
+"Roupas": {
+        "image": "https://erpfor.me/images/paginas/segmentos/atacado/roupas.jpg"  
+    },
+"Distribuidoras": {
+        "image": "https://erpfor.me/images/paginas/segmentos/atacado/distribuidora.jpg"
+    },
+"Indústria": {
+        "image": "https://erpfor.me/images/paginas/segmentos/industria/industria.jpg"
+    },
+"Agronegócio": {
+        "image": "https://erpfor.me/images/paginas/segmentos/industria/Agronegocio.jpg"
+    },
+"Construção Civil": {
+        "image": "https://erpfor.me/images/paginas/segmentos/industria/Construcao-Civil.jpg"
+    },
+"Auto Center": {
+        "image": "https://erpfor.me/images/paginas/segmentos/servicos/auto-center.jpg"
+    },
+"Salão de Beleza": {
+        "image": "https://erpfor.me/images/paginas/segmentos/servicos/salao-de-beleza.jpg"
+    },
+"Empresas Comunicação": {
+        "image": "https://erpfor.me/images/paginas/segmentos/servicos/empresas-comunicacao.jpg"
+    },
+"Mão de Obra": {
+        "image": "https://erpfor.me/images/paginas/segmentos/servicos/mao-de-obra.jpg"
+    },
+"Instituição de Ensino": {
+        "image": "https://erpfor.me/images/paginas/segmentos/servicos/instituicao-ensino.jpg"
+    },
+"Terceiro Setor": {
+        "image": "https://erpfor.me/images/paginas/segmentos/alimentaco/terceiro-setor.jpg"
+    },
+"Restaurante" : {
+    "image": "https://erpfor.me/images/paginas/segmentos/alimentaco/restaurante.jpg"
+
+},
+"Bares e Casas Noturnas": {
+    "image": "https://erpfor.me/images/paginas/segmentos/alimentaco/bares-e-casas-noturnas.jpg"
+},
+"Padarias": {
+        "image": "https://erpfor.me/images/paginas/segmentos/alimentaco/padarias.jpg"
+    },
+"Delivery Alimentação": {
+        "image": "https://erpfor.me/images/paginas/segmentos/alimentaco/delivery-alimentacao.jpg"
+    },
+"Marketing e Publicidade": {
+        "image": "https://img.freepik.com/free-photo/social-media-marketing-concept-marketing-with-applications_23-2150063134.jpg"
+    },
+"Revenda de gás": {
+        "image": "https://erpfor.me/images/paginas/revenda_glp/3d-rendering-gas-cylinder.jpg"
+    },
+}
+
+
+// foeach segments, add to the html
+for (const [key, value] of Object.entries(segmentos)) {
+    document.getElementById('cards').innerHTML += `
+   <div
+                class="flex flex-col items-center md:flex-row  mb-10">
+                
+                    <div class="card  flex flex-col md:flex-row justify-center items-center w-full p-0">
+                        <img class="object-cover  h-[300px] md:h-auto md:w-[220px]" src="${value.image}"
+                            alt="">
+                        <div class="card-title text-xl font-bold">${key}</div>
+                    </div>
+                
+            </div>
+    `
+}
+
+
+
+</script>
