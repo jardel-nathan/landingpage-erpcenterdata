@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" class="light scroll-smooth" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Center Data</title>
+    <meta name="description" content="Responsive Tailwind CSS Template">
+    <meta name="keywords" content="Onepage, creative, modern, Tailwind CSS, multipurpose, clean">
+    <meta name="author" content="Shreethemes">
+    <meta name="website" content="https://shreethemes.in">
+    <meta name="email" content="support@shreethemes.in">
+    <meta name="version" content="1..0">
+    <!-- favicon -->
+    <link href="assets/images/favicon.ico" rel="shortcut icon">
+
+    <!-- Css -->
+    <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
+    <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
+    <link href="assets/libs/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.1/dist/flowbite.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <style>
+        .navbar-white-transparent {
+            background-color: rgba(118, 34, 151, 0.781);
+            transition: background-color 0.3s;
+        }
+
+        .navbar-transparent {
+            background-color: transparent;
+            transition: background-color 0.3s;
+            background-color: rgba(255, 255, 255, 0.11);
+        }
+
+        .card {
+            position: relative;
+
+            height: 300px;
+            /* Ajuste conforme necessário */
+            border-radius: 10px;
+            /* Adicione o border-radius aqui */
+            overflow: hidden;
+            /* Adicione overflow hidden para garantir que a imagem respeite o border-radius */
+        }
+
+        .card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .card-title {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 10px;
+            color: white;
+            background: linear-gradient(to top, rgba(118, 34, 151, 0.781), rgba(128, 0, 128, 0));
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body class="font-roboto text-base text-slate-900">
+    <nav id="navbar" class="navbar-transparent fixed w-full z-20 top-0 start-0">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="#" class="flex items-center">
+                <img id="logo" src="assets/images/logo.png" class="h-10 md:h-14" alt="Logo">
+            </a>
+            <a href="https://wa.me/5538999821230" target="_blank">
+                <button type="button"
+                    class="cursor-pointer px-3 py-2 text-sm md:px-5 md:py-2 text-base font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-700 focus:ring-4 focus:outline-none focus:ring-green-500">
+                    FALE COM A GENTE
+                </button>
+            </a>
+        </div>
+    </nav>
+
+    <div
+        class="w-full bg-[url(./assets/images/banner-people.webp)] bg-top bg-no-repeat bg-cover h-[400px] md:h-[600px]">
+        <div class="w-fit object-center md:w-1/2 h-full flex flex-row justify-center items-center">
+            <h1 class="text-center md:text-left leading-none ">
+                <span class="md:text-[5em] text-[2em] font-bold text-lime-500 ">Um ERP</span><br>
+                <span class="md:text-[4em] text-[2em] text-neutral-50 font-semibold">Descomplicado</span><br>
+                <span class="md:text-[4em] text-[2em] text-neutral-50">para o seu</span><br>
+                <span class="md:text-[5em] text-[2em] font-bold text-lime-500">negócio!</span><br>
+            </h1>
+        </div>
+    </div>
+    
+    <section>
+        <img src="banner.svg" alt="">
+    </section>
+
+    <section class="w-full flex justify-center mb-20 ">
+        <div class="flex flex-col items-center justify-around bg-white gap-10  md:flex-row md:max-w-7xl w-full">
+            <img class="object-cover  rounded-t-lg md:h-[400px] h-[300px]  md:rounded-none md:rounded-s-lg"
+                src="assets/images/card1.webp" alt="">
+            <div class="flex flex-col justify-between p-4 leading-normal md:max-w-7xl">
+                <h5 class="mb-2 text-2xl tracking-tight text-purple-700 dark:text-white">A EVOLUÇÃO DA <span class="font-bold">GESTÃO EMPRESARIAL</span></h5>
+                <p class="mb-3 font-normal text-gray-700 ">Imagine uma gestão  empresarial que se adapta ao seu negócio  com a flexibilidade e robustez que você  precisa para crescer </p>
+                <p class="mb-3 font-normal text-gray-700 ">Um sistema online que une  automação, inteligência e praticidade  para garantir o controle completo de cada  etapa da sua operação, desde a produção  até a entrega final. </p>
+             
+            </div>
+        </div>
+    
+    </section>
+
+
+    <section class="w-full flex justify-center mb-20 ">
+        <div class="flex flex-col items-center justify-around bg-[#67009a] gap-10  md:flex-row md:max-w-7xl w-full rounded-3xl px-4">
+           
+            <div class="flex flex-col justify-between p-4 leading-normal md:max-w-7xl">
+                <h5 class="mb-2 text-2xl tracking-tight text-slate-50 dark:text-white">POR QUE ESCOLHER  <span class="font-bold text-lime-500">A NOSSA SOLUÇÃO?</span></h5>
+                <p class="mb-3 font-normal text-slate-50 ">Você ganha mais do que um software, você adquire uma base sólida para decisões mais assertivas, inpulsionando a performance da sua empresa. </p>
+                <p class="mb-3 font-normal text-slate-50 ">Flexível e escalável, ele oferece pacotes personalizados que atendem perfeitamente as necessidades do seu segmento, seja indústria, varejo, atacado, distribuidoras, moda, serviços, ramo food ou terceiro setor. </p>
+            </div>
+
+            <img class="object-cover  rounded-t-lg md:h-[400px] h-[300px] md:rounded-none md:rounded-s-lg"
+            src="assets/images/card2.webp" alt="">
+        </div>
+    
+    </section>
+
+
+    <section class="flex mb-20 ">
+        <div class="w-full mx-auto  md:max-w-7xl md:!px-0 px-5">
+
+            <div class="text-left font-semibold text-4xl text-gray-800 ">
+              Nossos segmentos
+            </div>
+           
+
+        </div>
+    </section>
+
+
+    <section id="cards" class="bg-white flex flex-row flex-wrap gap-[40px] items-center justify-center px-4 ">
+        <div class="md:flex md:max-w-7xl w-full gap-5 justify-between">
+
+            <div
+                class="flex flex-col items-center md:flex-row md:max-w-3xl w-full md:w-auto transform transition-transform duration-300 hover:scale-105 mb-10">
+                
+                    <div class="card  flex flex-col md:flex-row justify-center items-center w-full p-0">
+                        <img class="orbject-cover  h-[300px] md:h-auto md:w-[230px] w-full" src="assets/images/cnd.jpg"
+                            alt="">
+                        <div class="card-title text-xl font-bold">CND</div>
+                    </div>
+                
+            </div>
+
+            <div
+                class="flex flex-col items-center md:flex-row md:max-w-3xl w-full md:w-auto transform transition-transform duration-300 hover:scale-105 mb-10">
+              
+                    <div class="card  flex flex-col md:flex-row justify-center items-center w-full p-0">
+                        <img class="object-cover w-[230px] h-[300px] md:h-auto md:w-[230px]"
+                            src="assets/images/ponto-eletronico.jpg" alt="">
+                        <div class="card-title text-xl font-bold">Ponto Eletrônico</div>
+                    </div>
+               
+            </div>
+
+            <div
+                class="flex flex-col items-center md:flex-row md:max-w-3xl w-full md:w-auto transform transition-transform duration-300 hover:scale-105 mb-10">
+               
+                    <div class="card  flex flex-col md:flex-row justify-center items-center w-full p-0">
+                        <img class="object-cover w-[230px] h-[300px] md:h-auto md:w-[230px]" src="assets/images/xml.jpg"
+                            alt="">
+                        <div class="card-title text-xl font-bold">Busca e armazenamento de XML</div>
+                    </div>
+                
+            </div>
+
+            <div
+                class="flex flex-col items-center md:flex-row md:max-w-3xl w-full md:w-auto transform transition-transform duration-300 hover:scale-105 mb-10">
+               
+                    <div class="card  flex flex-col md:flex-row justify-center items-center w-full p-0">
+                        <img class="object-cover w-[230px] h-[300px] md:h-auto md:w-[230px]"
+                            src="assets/images/flitapp.jpg" alt="">
+                        <div class="card-title text-xl font-bold">FlitApp</div>
+                    </div>
+                
+            </div>
+
+            <div
+                class="flex flex-col items-center md:flex-row md:max-w-3xl w-full md:w-auto transform transition-transform duration-300 hover:scale-105 mb-10">
+              
+                    <div class="card flex flex-col md:flex-row justify-center items-center w-full p-0">
+                        <img class="object-cover w-[230px] h-[300px] md:h-auto md:w-[230px]"
+                            src="assets/images/alterdata.jpg" alt="">
+                        <div class="card-title text-xl font-bold">Alter Data</div>
+                    </div>
+              
+            </div>
+        </div>
+    </section>
+
+
+    <section class="flex my-20 px-5">
+
+        <div class="md:w-7xl mx-auto px-4 bg-[#67009b] text-white py-20 rounded-[15px] text-center">
+            <h1 class="font-bold text-2xl">Entre em contato e fale com um dos nossos especialistas</h1>
+            <p>
+                Temos um time de especialistas prontos para te ajudar a escolher a melhor solução para o seu negócio.
+            </p>
+            <a href="https://wa.me/5538999821230?" target="_blank"
+                class="mt-15 mb-4 w-[300px] inline-block px-6 py-3 border border-white text-white font-semibold rounded-lg hover:bg-white hover:text-[#67009b] transition-colors duration-300">
+                Fale conosco
+            </a>
+
+            <div class="flex justify-center mt-5">
+                <div class="flex gap-2 text-xl font-bold">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor"
+                            d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                    </svg> (38) 9982-1230
+
+                </div>
+            </div>
+            <div class="flex justify-center mt-5">
+                <div class="flex gap-2 text-xl font-bold">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor"
+                            d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                    </svg> (38) 3214-3700
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://wa.me/5538999821230?" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+      z-index:1000;" target="_blank">
+        <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+    </a>
+
+
+
+    <footer class="bg-gray-800 text-white py-10 mt-20">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <div class="flex flex-col items-center md:items-start">
+                <img class="w-32" src="assets/images/logo.png" alt="">
+                <div class="text-sm mt-4"></div>
+            </div>
+            <div class="flex flex-col items-center md:items-end mt-4 md:mt-0">
+                <div class="text-sm">©
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script>
+
+                    - Todos os direitos reservados
+                </div>
+            </div>
+        </div>
+
+
+
+    </footer>
+
+
+</body>
+<script>
+    window.addEventListener('scroll', function () {
+        const navbar = document.getElementById('navbar');
+        const logo = document.getElementById('logo');
+        if (window.scrollY > 50) {
+            navbar.classList.remove('navbar-transparent');
+            navbar.classList.add('navbar-white-transparent');
+            ;
+        } else {
+            navbar.classList.remove('navbar-white-transparent');
+            navbar.classList.add('navbar-transparent');
+
+        }
+    });
+
+    document.getElementById('menu-button').addEventListener('click', function () {
+        const menu = document.getElementById('menu');
+        menu.classList.toggle('hidden');
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.1/dist/flowbite.min.js"></script>
+
+</html>
